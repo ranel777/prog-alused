@@ -22,7 +22,7 @@ FinalName = ClientInput.capitalize()
 if FinalName == "Thanos":
     print("Get out of here, Thanos! Nobody wants to play with you!")
 else:
-    print(f"Hi, {FinalName}. Would you like to have a hamburger?")
+    print("Hi {FinalName}. Would you like to have a hamburger?")
     
     
 def calculate_hypotenuse_length(a: float, b: float) -> float:
@@ -37,6 +37,6 @@ if __name__ == '__main__':
     hello = get_hello() #should return "Hello"
     print(hello) #checks the value of  hello variable
     ask_name_and_greet_user() #should be asking for the users name and greet them
-    print(calculate_hyptenuse_length(3, 4)) #should print 5.0
+    print(calculate_hypotenuse_length(3, 4)) #should print 5.0
     print(calculate_cathetus_length(3, 5)) #should print 4.0
     
